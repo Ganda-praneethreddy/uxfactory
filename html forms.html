@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>html forms</title>
+</head>
+
+<body>
+    <form name="signin" action="/sinin.aspx" target="_self" method="Post">
+        <fieldset>
+            <label for="fname"><a style="color: blue;">frist name:</a> </label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lastname"><a style="color:red;">last name:</a> </label>
+            <input type="text" id="lastname" name="lastname"><br><br>
+            <label for="password"><a style="color:yellow;">password:</a> </label>
+            <input type="password" id="password" name="fname"><br><br>
+            <label>Gender:</label>
+            <input type="radio" id="Male" name="gender" value="Male">
+            <label for="male"> <a style="background-color: blue;">Male</a> </label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female"><a style="background-color: red;"> Female</a> </label>
+            <input type="radio" id="others" name="gender" value="other">
+            <label for="others"><a style="background-color: yellow;"> Others</a> </label><br><br>
+            <label>Language:</label>
+            <input type="checkbox" id="language1" name="language1" value="english" />
+            <label for="language1"><a style="background-color: tomato;"> English</a> </label>
+            <input type="checkbox" id="language2" name="language2" value="Hindi" />
+            <label for="language2"><a style="background-color: teal;">Hindi</a> </label>
+            <input type="checkbox" id="language3" name="language3" value="Telugu" />
+            <label for="language3"><a style="background-color: steelblue;">Telugu</a></label>
+            <input type="checkbox" id="language4" name="language4" value="Tamil" />
+            <label for="language4"> <a style="background-color: springgreen;">Tamil</a></label><br><br>
+            <label for="jobdescription">job Description:</label><br>
+            <textarea id="jobdescription" name="jobdescription" rows="10" cols="50"></textarea><br>
+            <label for="mobilebrands"> Choose a mobile:</label>
+            <select id="mobilebrands" name="mobilebrands" size="3" multiple>
+                <option valve="iphone">Apple iphone</option>
+                <option valve="samsung">samsung</option>
+                <option valve="Moto">Moto</option>
+                <option valve="oneplus">oneplus</option>
+                <option valve="Realme">Realme</option>
+                <option valve="Nokia">Nokia</option>
+            </select><br><br>
+            <label for="photo">Upload photo:</label>
+            <input type="file" id="photo" name="photo" /><br>
+            <label for="Resume">Upload Resume:</label>
+            <input type="file" id="Resume" name="Resume" /><br>
+            <label for="photo">Upload Birthday:</label>
+            <input type="date" id="Birthday" name="Birthday" /><br>
+            <label for="favcolor"> select your favourite color:</label>
+            <input type="color"  id="favcolor" name="favcolor"/><br>
+            <input type="hidden" name="UserID" value="500" />
+            <input type="submit" name="Submit" value="click me!" />
+            <input type="reset" /><br><br>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend> student information</legend>
+            <label for="fname">frist name </label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lastname">last name </label>
+            <input type="text" id="Last name" name="lastname"><br><br>
+            <label for="password">p </label>
+            <input type="password" id="password:" name="password"><br><br>
+            <label> Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">FeMale</label>
+            <input type="radio" id="others" name="gender" value="others">
+            <label for="others">others</label><br><br>
+            <input type="button" name="submit" value="submit sudent Info" /><br><br>
+        </fieldset>
+    </form><br><br>
+
+
+
+
+    </fieldset>
+    </form>
+
+
+
+</body>
+
+</html>
